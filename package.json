@@ -1,0 +1,17 @@
+{
+  "name": "intercom-import",
+  "version": "0.0.0",
+  "description": "Import BeeFound data into intercom.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phil@leggetter.co.uk",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "intercom.io": "0.0.4",
+    "csv": "~0.3.6",
+    "es6-promise": "~0.1.1"
+  },
+  "private": true
+}
