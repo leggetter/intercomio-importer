@@ -11,7 +11,8 @@
   "dependencies": {
     "intercom.io": "0.0.4",
     "csv": "~0.3.6",
-    "es6-promise": "~0.1.1"
+    "es6-promise": "~0.1.1",
+    "moment": "~2.5.0"
   },
   "private": true
 }
