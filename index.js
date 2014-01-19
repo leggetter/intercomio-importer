@@ -50,8 +50,8 @@ Promise.all( promises )
     console.log( locumsFromCsv.length );
 
     // ...we have all the data we need to create the Locum and Practices users on intercom.io
-    importer.createLocumUsers( locumsFromCsv, existingUsers );
-    importer.createPracticeUsers( practicesFromCsv, existingUsers );
+    importer.syncLocumUsers( locumsFromCsv, existingUsers );
+    importer.syncPracticeUsers( practicesFromCsv, existingUsers );
 
   } )
   .catch( function( err ) {

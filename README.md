@@ -1,6 +1,6 @@
 # Intercom.io Import
 
-Used to import some data from CSV files.
+Used to import some data from CSV files. If the user already exists (identfied by a `user_id` field) then the user is updated with the data from the CSV.
 
 It's not a particularly generic solution, but it does demonstrate how easy it is to interact with the [intercom.io API](https://api.intercom.io/docs) using the [intercom.io Node library](https://github.com/tarunc/intercom.io).
 
